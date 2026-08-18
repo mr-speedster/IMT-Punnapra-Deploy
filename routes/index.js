@@ -194,7 +194,7 @@ router.post('/send-mail', multer().fields([{ name: 'profileImage', maxCount: 1 }
       service: 'gmail', // e.g., Gmail, Outlook, etc.
       auth: {
         user: 'punnapraimt@gmail.com',
-        pass: 'cuwxxtbptrlaoorb'
+        pass: 'lzzxbyqabrrtieae'
       }
     });
 
@@ -264,7 +264,7 @@ router.post('/contact-mail', multer().single('image'), async (req, res, next) =>
         service: 'gmail', // e.g., Gmail, Outlook, etc.
         auth: {
           user: 'punnapraimt@gmail.com',
-          pass: 'cuwxxtbptrlaoorb'
+          pass: 'lzzxbyqabrrtieae'
         }
       });
 
@@ -342,7 +342,7 @@ router.post('/grievance-mail', multer().single('image'), async (req, res, next) 
         service: 'gmail', // e.g., Gmail, Outlook, etc.
         auth: {
           user: 'punnapraimt@gmail.com',
-          pass: 'cuwxxtbptrlaoorb'
+          pass: 'lzzxbyqabrrtieae'
         }
       });
 
@@ -420,7 +420,7 @@ router.post('/admission-enquiry-mail', multer().single('image'), async (req, res
         service: 'gmail', // e.g., Gmail, Outlook, etc.
         auth: {
           user: 'punnapraimt@gmail.com',
-          pass: 'cuwxxtbptrlaoorb'
+          pass: 'lzzxbyqabrrtieae'
         }
       });
 
