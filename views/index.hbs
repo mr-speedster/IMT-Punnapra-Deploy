@@ -47,10 +47,16 @@
 
     <link rel="stylesheet" href="/stylesheets/chatBot.css">
 
+    <!--====== Announcements css ======-->
+    <link rel="stylesheet" href="/stylesheets/announcements.css">
+
 </head>
 
 <body>
-
+    <!--====== ANNOUNCEMENT TICKER START ======-->
+    <div id="announcement-ticker" class="announcement-ticker" role="marquee" aria-label="Latest announcements"></div>
+    <!--====== ANNOUNCEMENT TICKER ENDS ======-->
+    
     <!--====== Chat Bot START ======-->
     <div class="chat_icon">
         <a href="/chat-bot" style="text-decoration: none;color: #ffc600;">
@@ -764,6 +770,9 @@
 
     <!--====== Main js ======-->
     <script src="/javascripts/main.js"></script>
+
+    <!--====== Announcement Ticker js ======-->
+    <script src="/javascripts/announcement-ticker.js"></script>
 
         <!--====== index js ======-->
     <script src="/routes/index.js"></script>

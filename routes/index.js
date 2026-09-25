@@ -59,6 +59,10 @@ router.get('/gallary', function (req, res, next) {
   res.render('gallary');
 });
 
+router.get('/announcements', function (req, res, next) {
+  res.render('announcements');
+});
+
 router.post('/send-mail', multer().fields([{ name: 'profileImage', maxCount: 1 }, { name: 'signImage', maxCount: 1 }]), async function (req, res, next) {
 
   const currentDate = new Date();
