@@ -7,7 +7,7 @@
        will automatically pick it up, no other change needed.
        ====================================================================== */
     var announcements = [
-        { text: "Admissions open for the 2026 batch — apply now!" }
+        { text: "Tender invitation for AC purchase, last date for submission of tender  is  30/9/2026" }
         // { text: "Another announcement goes here" },
         // { text: "Yet another announcement goes here" },
     ];
